@@ -61,8 +61,8 @@ import bpy
 import os
 import shutil
 
-presets_folder = bpy.utils.script_paths("presets")
-addons_folder = bpy.utils.script_paths("addons")
+presets_folder = bpy.utils.script_paths(subdir="presets")
+addons_folder = bpy.utils.script_paths(subdir="addons")
 Lumiere_presets = os.path.join(presets_folder[0], 'object', 'Lumiere_presets')
 
 # register
