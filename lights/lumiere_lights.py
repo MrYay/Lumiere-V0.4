@@ -41,7 +41,7 @@ def create_softbox(softbox_name = "Lumiere"):
 
 	# Add UV
 	bpy.ops.object.editmode_toggle()
-	bpy.ops.uv.smart_project(angle_limit=66, island_margin=0, user_area_weight=0)
+	bpy.ops.uv.smart_project(angle_limit=66, island_margin=0, area_weight=0)
 	bpy.ops.uv.reset()
 	bpy.ops.object.editmode_toggle()
 
