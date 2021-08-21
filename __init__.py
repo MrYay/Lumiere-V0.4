@@ -21,7 +21,7 @@ bl_info = {
 	"author": "Clarkx",
 	"description": "Interactive Lighting add-on for Blender.",
 	"version": (0, 4),
-	"blender": (2, 80, 0),
+	"blender": (2, 91, 0),
 	"location": "3D View",
 	"warning": "",
 	"wiki_url": "",

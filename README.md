@@ -1,4 +1,4 @@
-# Lumiere V0.4 for 2.82
+# Lumiere V0.4 for 2.91+
 
 ## Interactive Lighting add-on for Blender 
 Overview : https://www.youtube.com/watch?v=8MCrqrkT5es&feature=youtu.be
