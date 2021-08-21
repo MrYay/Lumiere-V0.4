@@ -4,6 +4,6 @@
 Overview : https://www.youtube.com/watch?v=8MCrqrkT5es&feature=youtu.be
 
 ## Installation :
-- Download the zip file ready to install
+- Download the zip file ready to install: https://github.com/MrYay/Lumiere-V0.4/releases/latest/download/lumiere.zip
 - In the blender preferences, click on the "Add-ons" tab then on "Install..." and select the zip file,
 - A new tab "Lumiere" should appear.
