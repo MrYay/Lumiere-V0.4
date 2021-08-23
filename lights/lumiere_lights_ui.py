@@ -203,8 +203,9 @@ def update_rotation_tilt(self,context):
 
 	# Update the shadow location
 	if context.scene.is_running == False:
+		depsgraph = context.evaluated_depsgraph_get()
 		if light.parent : light.parent.hide_viewport = True
-		result, hit_location, _, _, _, _ = context.scene.ray_cast(context.view_layer, Vector(light.Lumiere.hit), (Vector(light.Lumiere.hit) - light.location))
+		result, hit_location, _, _, _, _ = context.scene.ray_cast(depsgraph, Vector(light.Lumiere.hit), (Vector(light.Lumiere.hit) - light.location))
 
 		if result:
 			light.Lumiere.shadow = hit_location
